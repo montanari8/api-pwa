@@ -1,12 +1,13 @@
-const CACHE_NAME = "itapeshopping-v8";
+const CACHE_NAME = "Retroflix";
+const BaseURL = "https://montanari8.github.io/api-pwa/"
 const assets = [
-    "/",
-    "/app.html",
-    "/manifest.json",
-    "/css/materialize.min.css",
-    "/js/materialize.min.js",
-    "js/instalar.js",
-    "/js/app.js"
+    BaseURL,
+    `${BaseURL}/app.html`,
+    `${BaseURL}/manifest.json`,
+    `${BaseURL}/css/materialize.min.css`,
+    `${BaseURL}/js/materialize.min.js`,
+    `${BaseURL}js/instalar.js`,
+    `${BaseURL}/js/app.js`
 ];
 
 self.addEventListener('install', (e) => {
