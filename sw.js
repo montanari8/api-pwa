@@ -7,8 +7,8 @@ const assets = [
     `${BaseURL}css/materialize.min.css`,
     `${BaseURL}js/materialize.min.js`,
     `${BaseURL}js/instalar.js`,
-    `${BaseURL}js/app.js`
-    `${BaseURL}img/icon.png`,
+    `${BaseURL}js/app.js`,
+    `${BaseURL}img/icon.png
 ];
 
 self.addEventListener('install', (e) => {
