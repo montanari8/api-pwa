@@ -2,12 +2,13 @@ const BaseURL = "https://montanari8.github.io/api-pwa/"
 const CACHE_NAME = "Retroflix";
 const assets = [
     BaseURL,
-    `${BaseURL}/app.html`,
-    `${BaseURL}/manifest.json`,
-    `${BaseURL}/css/materialize.min.css`,
-    `${BaseURL}/js/materialize.min.js`,
+    `${BaseURL}app.html`,
+    `${BaseURL}manifest.json`,
+    `${BaseURL}css/materialize.min.css`,
+    `${BaseURL}js/materialize.min.js`,
     `${BaseURL}js/instalar.js`,
-    `${BaseURL}/js/app.js`
+    `${BaseURL}js/app.js`
+    `${BaseURL}img/icon.png`,
 ];
 
 self.addEventListener('install', (e) => {
