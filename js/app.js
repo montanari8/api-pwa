@@ -1,7 +1,8 @@
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function () {
+    const BaseURL = "https://montanari8.github.io/api-pwa/"
     navigator.serviceWorker
-      .register("/sw.js")
+      .register(`BaseURL/sw.js`)
       .then(res => console.log("service worker registered"))
       .catch(err => console.log("service worker not registered", err))
   })
